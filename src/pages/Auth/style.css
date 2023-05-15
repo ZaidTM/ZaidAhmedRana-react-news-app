@@ -1,0 +1,63 @@
+.Auth {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-auth {
+  background-color: #fff;
+  border-radius: 8px;
+  min-width: 375px;
+}
+
+.Auth .auth-foot {
+  background-color: #f0f3f7;
+  padding: 24px;
+  border-radius: 0 0 8px 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.Auth .auth-foot a {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.Auth .form-control {
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.inner-auth h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.inner-auth .auth-input {
+  position: relative;
+}
+
+.auth-input .eye-icon {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  cursor: pointer;
+  color: #00bfff;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .inner-auth {
+    min-width: 80%;
+    margin: 0 auto;
+  }
+}
